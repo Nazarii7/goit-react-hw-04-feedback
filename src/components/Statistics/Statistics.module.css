@@ -1,0 +1,19 @@
+.list {
+  background-color: rgb(234, 250, 8);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  color: blue;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.item:last-child {
+  margin-bottom: 0px;
+}
